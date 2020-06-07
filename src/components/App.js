@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import SearchBar from "./SearchBar";
 
 class App extends Component {
-  render() {
+  render() {   
     return (
-      <div>
+      <div className="ui container" style={{ marginTop: '10px'}}>
         <SearchBar />
       </div>
     );
